@@ -1,0 +1,418 @@
+/* large devices (Desktop & laptops)*/
+@media (min-width: 1200px) {
+}
+
+/* meduim devices (landskape tablets & medium laptops)*/
+@media (min-width: 922px) and (max-width: 1199px) {
+  /* go to top  */
+  .btn-yellow {
+    color: #fff;
+    border: 1px solid #0099cc;
+    background-color: #0099cc;
+  }
+
+  .btn-yellow:hover,
+  .btn-yellow:focus {
+    color: #fff;
+    background-color: #212226;
+    border: 1px solid #212226;
+  }
+
+  .btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 3px 15px;
+    border-radius: 4px;
+    font-size: 22px;
+    display: none;
+    z-index: 99999;
+  }
+
+  /* background mobile  */
+  .home-bg-video{
+    background-image: url('../images/jumbotron/bg-jumbo-mobile.jpg');
+    background-position: center center;
+  }
+
+  /* about  */
+  .about-right h2 {
+    padding-bottom: 5px;
+  }
+
+  .about-right p {
+    padding: 0 0 5px 0;
+  }
+
+  .about-right hr {
+    padding: 0 0 5px 0;
+  }
+
+  /* blog  */
+  .blog-post h3 a {
+    font-size: 19px;
+    font-weight: 800;
+  }
+
+  /* contact  */
+  #contact-right h4 {
+    font-weight: 600;
+  }
+}
+
+/* small  devices (portail tablets & small laptops)*/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* go to top  */
+  .btn-yellow {
+    color: #fff;
+    border: 1px solid #0099cc;
+    background-color: #0099cc;
+  }
+
+  .btn-yellow:hover,
+  .btn-yellow:focus {
+    color: #fff;
+    background-color: #212226;
+    border: 1px solid #212226;
+  }
+
+  .btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 3px 15px;
+    border-radius: 4px;
+    font-size: 22px;
+    display: none;
+    z-index: 99999;
+  }
+
+  .content-box-lg {
+    padding: 70px 0;
+  }
+
+  .container-fluid {
+    padding: 0 !important;
+  }
+
+  .navbar .logo {
+    padding-left: 15px;
+  }
+
+  .navbar-nav {
+    padding-left: 16px;
+  }
+  .pl-5,
+  .px-5 {
+    padding-left: 1rem !important;
+  }
+
+  .navbar-brand a {
+    padding: 0 18px;
+  }
+
+   /* background mobile  */
+   .home-bg-video{
+    background-image: url('../images/jumbotron/bg-jumbo-mobile.jpg');
+    background-position: center center;
+  }
+
+  #home-heading h1 {
+    font-size: 60px;
+  }
+
+  #home-heading h4 {
+    font-size: 25px;
+  }
+
+  .horizontal-heading h2 {
+    font-size: 35px;
+  }
+
+  /* about  */
+  .about-right {
+    margin-top: 23px;
+  }
+
+  .about-right h2 {
+    padding: 0 0 10px 0;
+    font-size: 23px;
+    font-weight: 800;
+  }
+
+  /* stats  */
+  .stats-item p {
+    line-height: 14px;
+  }
+
+  /* testimonial  */
+  .testimonial {
+    margin-top: 23px;
+  }
+
+  /* blog  */
+  /* .blog-post h3 {
+    text-align: center;
+  }
+  .reaction {
+    text-align: center;
+  } */
+
+  .blog {
+    margin-bottom: 25px;
+  }
+
+  .blog-text {
+    padding: 20px 10px;
+  }
+}
+
+/* contact  */
+
+.contact{
+  margin-left: 1px;
+  margin-right: 1px;
+  padding-bottom: 13px;
+}
+
+.contact h4 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.contact i {
+  font-size: 30px;
+}
+
+/* extra small  devices (landskape phone & portail tablets)*/
+@media (max-width: 767px) {
+  /* go to top  */
+  .btn-yellow {
+    color: #fff;
+    border: 1px solid #0099cc;
+    background-color: #0099cc;
+  }
+
+  .btn-yellow:hover,
+  .btn-yellow:focus {
+    color: #fff;
+    background-color: #212226;
+    border: 1px solid #212226;
+  }
+
+  .btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 3px 15px;
+    border-radius: 4px;
+    font-size: 22px;
+    display: none;
+    z-index: 99999;
+  }
+
+  .navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #2a2e31;
+  }
+
+  .white-nav-top ul.navbar-nav > li > a {
+    color: #fff !important;
+  }
+
+  .navbar .container-fluid {
+    padding: 0 20px;
+  }
+
+  .navbar-brand {
+    position: relative;
+    width: 100%;
+  }
+
+  .navbar-brand a {
+    color: #fff !important;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .navbar-toggler {
+    position: absolute;
+    right: 0px;
+  }
+
+  #mobile-nav-open-btn {
+    color: #0099cc !important;
+    font-size: 25px;
+    padding-top: 1px;
+    padding-right: 0px;
+  }
+
+  /* home  */
+
+   /* background mobile  */
+   .home-bg-video{
+    background-image: url('../images/jumbotron/bg-jumbo-mobile.jpg');
+    background-position: center center;
+  }
+  
+  #home-heading h1 {
+    font-size: 42px;
+  }
+
+  #home-heading h4 {
+    font-size: 20px;
+  }
+
+  .horizontal-heading h2 {
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 45px;
+    height: 0px;
+  }
+ 
+  
+
+  .btn-general {
+    font-size: 10px;
+    padding: 8px 25px 6px 25px;
+  }
+
+  /* large content box  */
+  .content-box-lg {
+    padding: 60px 0;
+  }
+
+  /* about  */
+  .about-right h2 {
+    padding-top: 20px;
+    font-size: 23px;
+  }
+
+  .about-right p{
+    font-size: 13px;
+  }
+
+  .about-text h5 {
+    font-weight: 800;
+    font-size: 16px;
+  }
+
+  .about-text h6 {
+    font-size: 12px;
+  }
+
+  .btn-download {
+    font-family: "Raleway", "sans-serif";
+    color: #33b5e5;
+    font-size: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 6px;
+    padding: 8px 25px 6px 25px;
+    background-color: #fafafa;
+    border: 3px solid #33b5e5;
+    transition: all 0.5s;
+  }
+
+  /* skill  */
+  .skill h4 {
+    font-size: 14px;
+    line-height: 35px;
+  }
+
+  /* service */
+  .about-item h4 {
+    font-size: 17px;
+    font-weight: bold;
+    color: #0099cc;
+  }
+  .about-item p{
+    font-size: 13px;
+  }
+
+  /* portfolio  */
+  #isotope-filters button {
+    display: inline-block;
+    margin-top: 13px;
+    margin-left: 13px;
+  }
+
+  /* testimonial  */
+  .testimonial {
+    margin: 25px 10px;
+    /* padding: 0 20px; */
+    border: 1px solid #efefef;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .testimonial p{
+    font-size: 13px;
+  }
+
+  .testimonial-left h3 {
+    font-size: 23px;
+    font-weight: bold;
+    padding-bottom: 5px;
+  }
+
+  .testimonial-left h5 {
+    color: #0099cc;
+    padding-bottom: 5px;
+  }
+
+  .testimonial-left p{
+    font-size: 13px;
+  }
+
+  .testimonial-header h3 {
+    font-size: 20px;
+    color: #0099cc;
+  }
+
+  .testimonial-header p {
+    font-size: 16px;
+    color: #0099cc;
+  }
+  /* blog  */
+  .blog {
+    margin-bottom: 25px;
+  }
+
+  .blog-post h3 a {
+    font-size: 20px;
+  }
+
+  .blog-text{
+    font-size: 13px;
+  }
+
+  /* contact  */
+.contact{
+  margin-left: 1px;
+  margin-right: 1px;
+  padding-bottom: 13px;
+}
+
+  .contact h4 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .contact-info p{
+    font-size: 13px;
+  }
+
+  #contact-right h4{
+    font-size: 20px;
+  }
+
+  #contact-right p{
+    font-size: 13px;
+  }
+
+  /* footer  */
+  .footer-title h2 {  
+   font-size: 30px;
+  }
+}
